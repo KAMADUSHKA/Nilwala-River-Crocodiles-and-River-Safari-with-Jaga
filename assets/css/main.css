@@ -972,6 +972,25 @@ section,
   color: color-mix(in srgb, var(--default-color), transparent 30%);
 }
 
+.hero .custom-icon-box {
+  /* margin: 20, 0, 20, 0; */
+  margin-bottom: 50px;
+  margin-top: 50px;
+}
+
+.hero .custom-icon {
+  width: 65px;  /* Adjust size of the icon */
+  height: 70px;
+  display: block;
+  margin: 0 auto 20px;  /* Space below the icon */
+}
+
+.hero .hero-icon-heading {
+  margin-top: 10px;  /* Adjust space above the heading */
+  text-align: center;  /* Centers the heading text */
+}
+
+
 /*--------------------------------------------------------------
 # About Section
 --------------------------------------------------------------*/
