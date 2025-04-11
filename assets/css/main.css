@@ -1071,6 +1071,7 @@ section,
   opacity: 0.5;
   transition: 0.3s;
   filter: grayscale(100);
+ border-radius: 15px;
 }
 
 .clients .swiper-slide img:hover {
@@ -1083,7 +1084,7 @@ section,
 }
 
 .clients .swiper-pagination {
-  margin-top: 20px;
+  margin-top: 60px;
   position: relative;
 }
 
@@ -1726,10 +1727,22 @@ section,
 /*--------------------------------------------------------------
 # Contact Section
 --------------------------------------------------------------*/
+
+.info-item .contact-link {
+  color: color-mix(in srgb, var(--default-color), transparent 30%);
+  text-decoration: none;
+  transition: 0.3s;
+}
+
+.info-item .contact-link:hover {
+  color: var(--accent-color);
+}
+
 .contact .info-item {
   box-shadow: 0px 0px 20px rgba(0, 0, 0, 0.1);
   padding: 20px 30px;
 }
+
 
 .contact .info-item .icon {
   color: var(--contrast-color);
