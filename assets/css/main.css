@@ -282,6 +282,12 @@ h6 {
   padding: 10px 0;
 }
 
+.header .branding {
+  background-color: var(--background-color);
+  min-height: 60px;
+  padding: 10px 0;
+}
+
 .header .logo {
   line-height: 1;
 }
@@ -556,6 +562,17 @@ h6 {
   position: relative;
 }
 
+.footer .footer-contact a {
+  color: color-mix(in srgb, var(--default-color), transparent 30%);
+  text-decoration: none;
+  transition: 0.3s;
+}
+
+.footer .footer-contact a:hover {
+  color: var(--accent-color);
+}
+
+
 .footer .footer-top {
   padding-top: 50px;
 }
@@ -649,6 +666,16 @@ h6 {
   margin-bottom: 5px;
 }
 
+/* .footer .footer-newsletter {
+  background-color: var(--surface-color);
+} */
+.footer .footer-logo {
+  display: block;
+  margin: 0 auto;
+  width: 200px
+}
+
+
 .footer .footer-newsletter .newsletter-form {
   margin-top: 30px;
   margin-bottom: 15px;
@@ -693,8 +720,8 @@ h6 {
 }
 
 .footer .copyright {
-  padding-top: 25px;
-  padding-bottom: 25px;
+  padding-top: 2px;
+  padding-bottom: 0px;
   border-top: 1px solid color-mix(in srgb, var(--default-color), transparent 90%);
 }
 
