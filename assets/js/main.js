@@ -1,10 +1,4 @@
-/**
-* Template Name: Flexor
-* Template URL: https://bootstrapmade.com/flexor-free-multipurpose-bootstrap-template/
-* Updated: Aug 07 2024 with Bootstrap v5.3.3
-* Author: BootstrapMade.com
-* License: https://bootstrapmade.com/license/
-*/
+
 
 (function() {
   "use strict";
@@ -97,7 +91,8 @@
       duration: 600,
       easing: 'ease-in-out',
       once: true,
-      mirror: false
+      mirror: false,
+      offset: -500
     });
   }
   window.addEventListener('load', aosInit);
