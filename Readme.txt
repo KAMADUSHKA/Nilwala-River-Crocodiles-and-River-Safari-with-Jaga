@@ -1,6 +1,3 @@
-Thanks for downloading this template!
+Thank you
 
-Template Name: Flexor
-Template URL: https://bootstrapmade.com/flexor-free-multipurpose-bootstrap-template/
-Author: BootstrapMade.com
-License: https://bootstrapmade.com/license/
+
