@@ -2670,3 +2670,10 @@ section,
 
 .whatsapp-button img:hover {
   transform: scale(1.1); /* Slightly larger on hover */
+}
+
+@media (max-width: 768px) {
+  .topbar .header_mail {
+    display: none;
+  }
+}
