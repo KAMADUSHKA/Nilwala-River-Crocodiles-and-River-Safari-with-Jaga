@@ -266,14 +266,33 @@ h6 {
 }
 
 .header .topbar .social-links a {
-  color: color-mix(in srgb, var(--default-color), transparent 40%);
   line-height: 0;
   transition: 0.3s;
   margin-left: 20px;
 }
 
-.header .topbar .social-links a:hover {
-  color: var(--accent-color);
+.social-links .facebook i {
+  color: #1877F2; /* Facebook Blue */
+}
+
+.social-links .bi-facebook {
+  color: #1877F2; /* Facebook Blue */
+}
+
+.social-links .bi-instagram {
+  color: #E1306C; /* Instagram Pink */
+}
+
+.social-links .instagram i {
+  color: #E1306C; /* Instagram Pink */
+}
+
+.social-links .bi-youtube {
+  color: #FF0000; /* YouTube Red */
+}
+
+.social-links .youtube i {
+  color: #FF0000; /* YouTube Red */
 }
 
 .header .branding {
@@ -636,14 +655,12 @@ h6 {
   height: 40px;
   border-radius: 50%;
   border: 1px solid color-mix(in srgb, var(--default-color), transparent 50%);
-  font-size: 16px;
-  color: color-mix(in srgb, var(--default-color), transparent 30%);
+  font-size: 18px;
   margin-right: 10px;
   transition: 0.3s;
 }
 
 .footer .social-links a:hover {
-  color: var(--accent-color);
   border-color: var(--accent-color);
 }
 
